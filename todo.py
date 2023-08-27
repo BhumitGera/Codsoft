@@ -75,7 +75,7 @@ class todo:
             self.text.insert(END, selected_task)
 
         for i in read:
-            done = i.strip()  # Remove leading/trailing whitespace
+            done = i.strip() 
             self.main_text.insert(END, done)
 
         
